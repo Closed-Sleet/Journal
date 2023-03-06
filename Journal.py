@@ -2,7 +2,7 @@
 #Lantis T. Hegg
 import os, time, datetime
 
-print("Hello User! How are you feeling today?")
+print("Hello user! How are you feeling today?")
 current_date = datetime.datetime.now(tz=None)
 response = input("Type entry now. \nPress enter when you're done.\n")
 formatted_date = current_date.strftime("%A, %B %d, %Y \n%I:%M%p\n")

@@ -1,5 +1,5 @@
 # Journal.py
-A Journal type thing for linux using the terminal.
+A journal type thing for linux using the terminal.
 It takes your input and the date and time, then prompts you for the filename you wish to append your entry to. By default it uses Journal.txt
 The file it writes to will be created if not already present and it won't override text in the file, just appends the entry to it.
 The file has to be in the same directory and Journal.py itself otherwise it will create the file in the directory.
